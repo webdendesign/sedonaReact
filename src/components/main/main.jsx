@@ -1,5 +1,6 @@
 import React from 'react';
 import Navigation from '../navigation/navigation.jsx';
+import Service from '../service/service.jsx';
 
 const Main = (props) => {
   // eslint-disable-next-line react/prop-types
@@ -31,20 +32,7 @@ const Main = (props) => {
                 <p>Седона &mdash; не аттракцион для туристов,<br />там течёт своя жизнь</p>
               </div>
               <div className="features-item-img-one"></div>
-              <ul className="service">
-                <li className="service-item house">
-                  <h4>Жильё</h4>
-                  <p>Рекомендуем пожить в настоящем<br />мотеле, всё как в кино!</p>
-                </li>
-                <li className="service-item food">
-                  <h4>Еда</h4>
-                  <p>Всегда заказывайте фирменный бургер,<br />вы не разочаруетесь!</p>
-                </li>
-                <li className="service-item souvenirs">
-                  <h4>Сувениры</h4>
-                  <p>Не только китайского, но и местного<br />производства!</p>
-                </li>
-              </ul>
+              <Service />
             </li>
             <li className="feature-item">
               <div className="features-item-img-two"></div>
