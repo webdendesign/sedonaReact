@@ -1,4 +1,5 @@
 import React from 'react';
+import Navigation from '../navigation/navigation.jsx';
 
 const Main = (props) => {
   // eslint-disable-next-line react/prop-types
@@ -9,14 +10,7 @@ const Main = (props) => {
         <a className="logo">
           <img src="img/logo.png" width="138" height="70" alt="Логотип города Седона" />
         </a>
-        <nav className="navigation">
-          <ul className="site-navigation">
-            <li><a href="info.html">Информация</a></li>
-            <li><a href="photo.html">Фото и видео</a></li>
-            <li><a href="map.html">Карта штата</a></li>
-            <li><a href="catalog.html">Гостиницы</a></li>
-          </ul>
-        </nav>
+        <Navigation />
       </header>
 
       <main className="main-content">
