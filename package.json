@@ -1,0 +1,27 @@
+{
+  "name": "sedonareact",
+  "version": "1.0.0",
+  "description": "Project 'sedonareact'",
+  "scripts": {
+    "build": "webpack --mode production",
+    "eslint": "eslint --ext .jsx --ext .js src/",
+    "start": "webpack serve",
+    "test": "npm run eslint"
+  },
+  "devDependencies": {
+    "@babel/core": "7.13.14",
+    "@babel/preset-env": "7.13.12",
+    "@babel/preset-react": "7.13.13",
+    "babel-loader": "8.2.2",
+    "eslint": "7.23.0",
+    "eslint-config-htmlacademy": "3.0.0",
+    "eslint-plugin-react": "7.23.1",
+    "webpack": "5.30.0",
+    "webpack-cli": "4.6.0",
+    "webpack-dev-server": "3.11.2"
+  },
+  "dependencies": {
+    "react": "17.0.2",
+    "react-dom": "17.0.2"
+  }
+}
